@@ -5,9 +5,9 @@
   }
   
   :root {
-    --main-bg-color: #0a0a23;
+    --main-bg-color: #000000;
     --section-bg-color: #ffffff;
-    --golden-yellow: #feac32;
+    --bright-green: #73ff00;
   }
   
   body {
@@ -40,18 +40,19 @@
   
   .btn {
     cursor: pointer;
-    width: 100px;
+    height: 50px;
+    width: 150px;
     margin: 10px;
     color: #0a0a23;
     font-size: 18px;
-    background-color: var(--golden-yellow);
-    background-image: linear-gradient(#fecc4c, #ffac33);
-    border-color: var(--golden-yellow);
+    background-color: var(--bright-green);
+    background-image: linear-gradient(#5dcc02, #0b8a11);
+    border-color: var(--bright-green);
     border-width: 3px;
   }
   
   .btn:hover {
-    background-image: linear-gradient(#ffcc4c, #f89808);
+    background-image: linear-gradient(#579931, #008521);
   }
   
   .btn-container {
